@@ -1,0 +1,22 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Hello Word",
+      "content": "The Wolrd is sooo huge, let's expore it together!",
+      "image": "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2066&q=80"
+    },
+    {
+      "id": 2,
+      "title": "Spain",
+      "content": "The first places I want to show you it's Spain. Incredibly beautiful country.",
+      "image": "https://images.unsplash.com/photo-1485111776963-19787ff041f9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2106&q=80"
+    },
+    {
+      "id": 3,
+      "title": "Montenegro",
+      "content": "Still a bit wild area with the deepest canion in Europe.",
+      "image": "https://images.unsplash.com/photo-1575576228666-bbe607505cce?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2134&q=80"
+    }
+  ]
+}
