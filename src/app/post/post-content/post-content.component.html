@@ -1,0 +1,5 @@
+<section *ngIf="postContent | async as post">
+  <h1>{{ post.title }}</h1>
+  <img src="{{ post.image }}" width="200px" />
+  <p>{{ post.content }}</p>
+</section>

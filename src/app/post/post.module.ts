@@ -6,6 +6,7 @@ import { PostListComponent } from './post-list/post-list.component';
 import { RouterModule, Routes } from '@angular/router';
 import { PostItemComponent } from './post-item/post-item.component';
 import { PostResolver } from './posts-resolver';
+import { PostContentComponent } from './post-content/post-content.component';
 
 const routes: Routes = [
   {
@@ -13,10 +14,14 @@ const routes: Routes = [
     resolve: { posts: PostResolver },
     component: PostListComponent,
   },
+  {
+    path: 'posts/:id',
+    component: PostContentComponent,
+  },
 ];
 
 @NgModule({
-  declarations: [PostListComponent, PostItemComponent],
+  declarations: [PostListComponent, PostItemComponent, PostContentComponent],
   imports: [
     CommonModule,
     FormsModule,

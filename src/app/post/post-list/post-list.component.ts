@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { PostService } from '../post.service';
 
 @Component({
   selector: 'app-post-list',
@@ -10,9 +9,7 @@ import { PostService } from '../post.service';
 export class PostListComponent implements OnInit {
   public posts = this.activatedRoute.snapshot.data.posts;
 
-  constructor(private activatedRoute: ActivatedRoute) {
-    console.log(this.posts);
-  }
+  constructor(private activatedRoute: ActivatedRoute) {}
 
   ngOnInit(): void {}
 }

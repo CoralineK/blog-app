@@ -13,4 +13,7 @@ export class PostService {
   getPosts(): Promise<Post[]> {
     return this.httpClient.get<Post[]>(this.url).toPromise();
   }
+  getPost(postId: string): Promise<Post> {
+    return this.httpClient.get<Post>(`${this.url}/${postId}`).toPromise();
+  }
 }
